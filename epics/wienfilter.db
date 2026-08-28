@@ -1,0 +1,27 @@
+# ./dtwinApp/Db/wienfilter.db
+
+record(ao, "$(USER):V-WIEN:ANGLE") {
+  field(DESC, "V-Wien angle")
+  field(DTYP, "stream")
+  field(OUT, "@wienfilter.proto set_vwien $(PORT)")
+}
+
+#record(ai, "$(USER):V-WIEN:R") {
+#  field(DESC, "V-Wien angle")
+#  field(SCAN, "10 second")
+#  field(DTYP, "stream")
+#  field(INP, "@wienfilter.proto get_vwien $(PORT)")
+#}
+
+record(ao, "$(USER):H-WIEN:ANGLE") {
+  field(DESC, "H-Wien angle")
+  field(DTYP, "stream")
+  field(OUT, "@wienfilter.proto set_hwien $(PORT)")
+}
+
+#record(ai, "$(USER):H-WIEN:R") {
+#  field(DESC, "H-Wien angle")
+#  field(SCAN, "10 second")
+#  field(DTYP, "stream")
+#  field(INP, "@wienfilter.proto get_hwien $(PORT)")
+#}

@@ -1,0 +1,218 @@
+# ./dtwinApp/Db/magnets.db
+
+record(ao, "$(USER):MBH2I00H:BDL") {
+  field(DESC, "magnet MBH2I00H:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH2I00H $(PORT)")
+}
+
+record(ao, "$(USER):MBH2I00V:BDL") {
+  field(DESC, "magnet MBH2I00V:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH2I00V $(PORT)")
+}
+
+record(ao, "$(USER):MBH2I00AH:BDL") {
+  field(DESC, "magnet MBH2I00AH:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH2I00AH $(PORT)")
+}
+
+record(ao, "$(USER):MBH2I00AV:BDL") {
+  field(DESC, "magnet MBH2I00AV:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH2I00AV $(PORT)")
+}
+
+record(ao, "$(USER):MFX2I01_US:BDL") {
+  field(DESC, "magnet MFX2I01_US:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MFX2I01_US $(PORT)")
+}
+
+record(ao, "$(USER):MFX2I01_DS:BDL") {
+  field(DESC, "magnet MFX2I01_DS:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MFX2I01_DS $(PORT)")
+}
+
+record(ao, "$(USER):MBH2I01H:BDL") {
+  field(DESC, "magnet MBH2I01H:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH2I01H $(PORT)")
+}
+
+record(ao, "$(USER):MBH2I01V:BDL") {
+  field(DESC, "magnet MBH2I01V:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH2I01V $(PORT)")
+}
+
+record(ao, "$(USER):MBH2I01AH:BDL") {
+  field(DESC, "magnet MBH2I01AH:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH2I01AH $(PORT)")
+}
+
+record(ao, "$(USER):MBH2I01AV:BDL") {
+  field(DESC, "magnet MBH2I01AV:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH2I01AV $(PORT)")
+}
+
+record(ao, "$(USER):MBH1I02H:BDL") {
+  field(DESC, "magnet MBH1I02H:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH1I02H $(PORT)")
+}
+
+record(ao, "$(USER):MBH1I02V:BDL") {
+  field(DESC, "magnet MBH1I02V:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH1I02V $(PORT)")
+}
+
+record(ao, "$(USER):MFX1I03_US:BDL") {
+  field(DESC, "magnet MFX1I03_US:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MFX1I03_US $(PORT)")
+}
+
+record(ao, "$(USER):MFX1I03_DS:BDL") {
+  field(DESC, "magnet MFX1I03_DS:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MFX1I03_DS $(PORT)")
+}
+
+record(ao, "$(USER):MBH1I03H:BDL") {
+  field(DESC, "magnet MBH1I03H:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH1I03H $(PORT)")
+}
+
+record(ao, "$(USER):MBH1I03V:BDL") {
+  field(DESC, "magnet MBH1I03V:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH1I03V $(PORT)")
+}
+
+record(ao, "$(USER):MQW1I03:BDL") {
+  field(DESC, "magnet MQW1I03:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MQW1I03 $(PORT)")
+}
+
+record(ao, "$(USER):MQW1I04:BDL") {
+  field(DESC, "magnet MQW1I04:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MQW1I04 $(PORT)")
+}
+
+record(ao, "$(USER):MBH1I04H:BDL") {
+  field(DESC, "magnet MBH1I04H:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH1I04H $(PORT)")
+}
+
+record(ao, "$(USER):MBH1I04V:BDL") {
+  field(DESC, "magnet MBH1I04V:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH1I04V $(PORT)")
+}
+
+record(ao, "$(USER):MFG1I04A:BDL") {
+  field(DESC, "magnet MFG1I04A:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MFG1I04A $(PORT)")
+}
+
+record(ao, "$(USER):MFG1I04B:BDL") {
+  field(DESC, "magnet MFG1I04B:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MFG1I04B $(PORT)")
+}
+
+record(ao, "$(USER):MBH1I05H:BDL") {
+  field(DESC, "magnet MBH1I05H:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH1I05H $(PORT)")
+}
+
+record(ao, "$(USER):MBH1I05V:BDL") {
+  field(DESC, "magnet MBH1I05V:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH1I05V $(PORT)")
+}
+
+record(ao, "$(USER):MQW1I05:BDL") {
+  field(DESC, "magnet MQW1I05:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MQW1I05 $(PORT)")
+}
+
+record(ao, "$(USER):MQW1I06:BDL") {
+  field(DESC, "magnet MQW1I06:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MQW1I06 $(PORT)")
+}
+
+record(ao, "$(USER):MBH1I07H:BDL") {
+  field(DESC, "magnet MBH1I07H:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH1I07H $(PORT)")
+}
+
+record(ao, "$(USER):MBH1I07V:BDL") {
+  field(DESC, "magnet MBH1I07V:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH1I07V $(PORT)")
+}
+
+record(ao, "$(USER):MFX0I01_US:BDL") {
+  field(DESC, "magnet MFX0I01_US:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MFX0I01_US $(PORT)")
+}
+
+record(ao, "$(USER):MFX0I01_DS:BDL") {
+  field(DESC, "magnet MFX0I01_DS:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MFX0I01_DS $(PORT)")
+}
+
+record(ao, "$(USER):MBH0I01H:BDL") {
+  field(DESC, "magnet MBH0I01H:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH0I01H $(PORT)")
+}
+
+record(ao, "$(USER):MBH0I01V:BDL") {
+  field(DESC, "magnet MBH0I01V:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH0I01V $(PORT)")
+}
+
+record(ao, "$(USER):MHD0I01AH:BDL") {
+  field(DESC, "magnet MHD0I01AH:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MHD0I01AH $(PORT)")
+}
+
+record(ao, "$(USER):MHD0I01AV:BDL") {
+  field(DESC, "magnet MHD0I01AV:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MHD0I01AV $(PORT)")
+}
+
+record(ao, "$(USER):MBH0I01BH:BDL") {
+  field(DESC, "magnet MBH0I01BH:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH0I01BH $(PORT)")
+}
+
+record(ao, "$(USER):MBH0I01BV:BDL") {
+  field(DESC, "magnet MBH0I01BV:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@magnets.proto set_MBH0I01BV $(PORT)")
+}
+
