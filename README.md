@@ -17,7 +17,9 @@ Controlling a Digital Twin of the CEBAF Injector from EPICS
 * write_python_corrector_file.m: writes the stanza for one corrector
 * write_all_quad_file.m: writes python interface to control quads and solenoids
 * write_python_magnet_file.m: writes it for one magnet
+* injector.lattice: beamline description file
 
-* 4D/: contains the beam optics calculations. They are described in https://library.oapen.org/handle/20.500.12657/98031
-* python/: contains the interface scripts in python
-* epics/: contains protocol and database files, as well as executable st.cmd
+* Subdirectories
+  * 4D/: contains the beam optics calculations. They are described in https://library.oapen.org/handle/20.500.12657/98031
+  * python/: contains the interface scripts in python
+  * epics/: contains protocol and database files, as well as executable st.cmd
