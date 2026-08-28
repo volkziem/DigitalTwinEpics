@@ -1,0 +1,142 @@
+# ./dtwinApp/Db/bpm.db
+
+record(ai, "$(USER):IPM2I00:XPOS") {
+  field(DESC, "IPM2I00 horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM2I00X $(PORT)")
+}
+
+record(ai, "$(USER):IPM2I00:YPOS") {
+  field(DESC, "IPM2I00 horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM2I00Y $(PORT)")
+}
+
+record(ai, "$(USER):IPM2I00A:XPOS") {
+  field(DESC, "IPM2I00A horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM2I00AX $(PORT)")
+}
+
+record(ai, "$(USER):IPM2I00A:YPOS") {
+  field(DESC, "IPM2I00A horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM2I00AY $(PORT)")
+}
+
+record(ai, "$(USER):IPM2I01A:XPOS") {
+  field(DESC, "IPM2I01A horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM2I01AX $(PORT)")
+}
+
+record(ai, "$(USER):IPM2I01A:YPOS") {
+  field(DESC, "IPM2I01A horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM2I01AY $(PORT)")
+}
+
+record(ai, "$(USER):IPM1I02:XPOS") {
+  field(DESC, "IPM1I02 horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM1I02X $(PORT)")
+}
+
+record(ai, "$(USER):IPM1I02:YPOS") {
+  field(DESC, "IPM1I02 horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM1I02Y $(PORT)")
+}
+
+record(ai, "$(USER):IPM1I03:XPOS") {
+  field(DESC, "IPM1I03 horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM1I03X $(PORT)")
+}
+
+record(ai, "$(USER):IPM1I03:YPOS") {
+  field(DESC, "IPM1I03 horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM1I03Y $(PORT)")
+}
+
+record(ai, "$(USER):IPM1I04:XPOS") {
+  field(DESC, "IPM1I04 horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM1I04X $(PORT)")
+}
+
+record(ai, "$(USER):IPM1I04:YPOS") {
+  field(DESC, "IPM1I04 horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM1I04Y $(PORT)")
+}
+
+record(ai, "$(USER):IPM1I05:XPOS") {
+  field(DESC, "IPM1I05 horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM1I05X $(PORT)")
+}
+
+record(ai, "$(USER):IPM1I05:YPOS") {
+  field(DESC, "IPM1I05 horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM1I05Y $(PORT)")
+}
+
+record(ai, "$(USER):IPM1I07:XPOS") {
+  field(DESC, "IPM1I07 horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM1I07X $(PORT)")
+}
+
+record(ai, "$(USER):IPM1I07:YPOS") {
+  field(DESC, "IPM1I07 horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM1I07Y $(PORT)")
+}
+
+record(ai, "$(USER):IPM0I01:XPOS") {
+  field(DESC, "IPM0I01 horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM0I01X $(PORT)")
+}
+
+record(ai, "$(USER):IPM0I01:YPOS") {
+  field(DESC, "IPM0I01 horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM0I01Y $(PORT)")
+}
+
+record(ai, "$(USER):IPM0I01B:XPOS") {
+  field(DESC, "IPM0I01B horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM0I01BX $(PORT)")
+}
+
+record(ai, "$(USER):IPM0I01B:YPOS") {
+  field(DESC, "IPM0I01B horizontal")
+  field(SCAN, "2 second")
+  field(DTYP, "stream")
+  field(INP, "@bpm.proto get_IPM0I01BY $(PORT)")
+}
+
